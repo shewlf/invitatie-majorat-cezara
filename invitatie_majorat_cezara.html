@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitație Majorat Cezara</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      color: #fbeeff;
+      background-image: url('https://cdn.pixabay.com/photo/2017/01/31/20/24/fireworks-2022971_1280.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 40px 30px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.85);
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(255, 255, 255, 0.15);
+    }
+    h1 {
+      font-size: 3em;
+      color: #ffccff;
+      margin-bottom: 0.2em;
+    }
+    .subtitle {
+      font-size: 1.5em;
+      margin-bottom: 1.5em;
+      color: #fdd7ff;
+    }
+    .hero-img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 2em;
+    }
+    .details {
+      font-size: 1.2em;
+      margin-top: 2em;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+    }
+    .details p {
+      margin: 10px 0;
+    }
+    .input-section {
+      margin-top: 3em;
+    }
+    input[type="text"], select {
+      padding: 10px;
+      border: 2px solid #ff99ff;
+      border-radius: 8px;
+      width: 60%;
+      font-size: 1em;
+      background-color: #2d1d35;
+      color: #fff;
+      margin-top: 5px;
+    }
+    button {
+      margin-top: 1em;
+      padding: 10px 20px;
+      background-color: #cc33cc;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #b300b3;
+    }
+    label {
+      display: block;
+      margin-top: 1em;
+      font-size: 1.1em;
+      text-align: left;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Invitație la majoratul meu</h1>
+    <div class="subtitle">Pentru cel mai tare majorat al anului – alături de Cezara!</div>
+
+    <img class="hero-img" src="https://cdn.pixabay.com/photo/2016/12/31/23/50/new-years-eve-1946223_1280.jpg" alt="Petrecere cu artificii">
+
+    <p style="font-size: 1.1em;">Cu zâmbetul larg și inima plină de emoție,</p>
+    <p style="font-size: 1.1em;">Cezara te invită să fii alături de ea într-una dintre cele mai speciale seri din viața ei – petrecerea de majorat!</p>
+    <p style="font-size: 1.1em;">Pregătește-te pentru o noapte fabuloasă, cu muzică, dans și energie cât pentru o viață!</p>
+
+    <div class="details">
+      <p>📍 <strong>Restaurant Reve Mariage</strong> – Prelungirea Ghencea, 95L, București</p>
+      <p>📅 <strong>19 septembrie 2025</strong></p>
+      <p>🕗 <strong>Începem la ora 19:00</strong></p>
+    </div>
+
+    <p style="margin-top: 2em; font-size: 1.2em;">Te aștept cu drag și nerăbdare,<br><strong>Cezara</strong></p>
+
+    <div class="input-section">
+      <h2>Confirmă prezența</h2>
+      <form action="https://formsubmit.co/lupulescudaria@gmail.com" method="POST">
+        <label for="name">Numele tău:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="insotitor">Vii cu însoțitor?</label>
+        <select id="insotitor" name="insotitor">
+          <option value="Nu">Nu</option>
+          <option value="Da">Da</option>
+        </select>
+
+        <input type="hidden" name="_subject" value="Confirmare participare majorat Cezara">
+        <input type="hidden" name="_captcha" value="false">
+
+        <button type="submit">Trimite</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
